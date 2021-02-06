@@ -1,0 +1,233 @@
+/*
+
+Template: Closter WHMCS Web Hosting Template
+Author: RedCheap Theme
+Version: 1.0
+Design and Developed by: RedCheap Theme
+
+NOTE: This file contains the styling for responsive Template.
+
+*/
+
+
+@media(max-width:1099px) {
+
+img.responsive {
+    width:100%;
+}
+.hosting-services-3 h3 {
+	font-size: 17px;
+}
+
+}
+
+@media(max-width:992px) {
+
+.home-banner, 
+.hosting-services, 
+.faq-section, 
+.hosting-page-banner, 
+.section-ptb, 
+.home-plan, 
+.home-domain-search, 
+footer {
+    padding: 60px 0px;
+}
+.home-banner h1, 
+.hosting-page-banner h1 {
+    font-size: 30px;
+    line-height: 35px;
+}
+.w-75, 
+.hosting-page-banner ul li, 
+.home-domain-search #homepageDomainSearch .optionalField, 
+.home-domain-search #homepageDomainSearch .domain_submit, 
+.hosting-services-2 .left, 
+.hosting-services-2 .right {
+    width: 100% !important;
+}
+.hosting-services-3 h3 {
+	font-size:18px;
+}
+.section-pb-150 {
+	padding: 60px 0px 130px 0px;
+}
+.section-bg {
+	display:none;
+}
+.home-domain-search #homepageDomainSearch .optionalField {
+    border-radius: 3px;
+}
+.home-domain-search #homepageDomainSearch .domain_submit {
+    border-radius: 3px;
+    margin-top:20px;
+}
+footer .footer-menu {
+	margin-top: 30px;
+}
+
+}
+
+@media(max-width:767px) {
+
+img.responsive {
+    width:100%;
+}
+ul.left-top-bar {
+    text-align:center;
+}
+ul.left-top-bar li i {
+    padding:0px;
+}
+ul.left-top-bar li {
+    margin:0px 10px 0px 0px;
+    padding:5px 0px;
+    display:inline-block;
+    float:none;
+}
+ul.right-top-bar {
+    float: none;
+    text-align: center;
+}
+ul.right-top-bar li {
+    float:none;
+    display:inline-block;
+    margin:0px 0px 0px 10px;
+    padding:8px 0px;
+}
+.home-banner h1, 
+.hosting-page-banner h1 {
+    font-size: 28px;
+    line-height: 35px;
+}
+.main-heading {
+    font-size: 28px;
+}
+.home-banner, 
+.hosting-services, 
+.faq-section, 
+.hosting-page-banner, 
+.section-ptb, 
+.home-plan, 
+.home-domain-search, 
+footer {
+    padding: 40px 0px;
+}
+.w-75, 
+.hosting-page-banner ul li, 
+.home-domain-search #homepageDomainSearch .optionalField, 
+.home-domain-search #homepageDomainSearch .domain_submit, 
+.hosting-services-2 .left, 
+.hosting-services-2 .right {
+    width: 100% !important;
+}
+.home-domain-search #homepageDomainSearch .optionalField {
+    border-radius: 3px;
+    font-size:18px;
+}
+.home-domain-search #homepageDomainSearch .domain_submit {
+    border-radius: 3px;
+    margin-top:20px;
+}
+.section-pb-150 {
+    padding: 40px 0px 140px 0px;
+}
+.section-pb {
+    padding:0px 0px 40px 0px
+}
+.hosting-services-1, 
+.hosting-services-2, 
+.hosting-services-3, 
+.home-plan .price_box, 
+.app-logo, 
+footer .footer-menu {
+    margin-top:30px;
+}
+.section-bg {
+    display:none;
+}
+.home-domain-search #homepageDomainSearch {
+    width:90%;
+}
+.hosting-services-2 .left, 
+.hosting-services-2 .right, 
+.hosting-services-2 p, 
+.copyright {
+    text-align:center;
+}
+.hosting-services-2 hr {
+    margin:15px auto;
+}
+.accordion-panel .plus-icon {
+   right:10px;
+}
+#back-to-top .top {
+    bottom:100px;
+}
+.copyright ul.legal-menu {
+    float: none;
+}
+.copyright {
+   padding:20px 0px;
+}
+.copyright ul.legal-menu li {
+    float: none;
+    display: initial;
+}
+
+}
+
+ @media (max-width: 767px) {
+
+.logo img {
+    width: 180px;
+}
+.transparent-header {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.menu-icon {
+    display: none;
+}
+
+}
+
+ @media (min-width: 768px) and (max-width: 991px) {
+
+.menu-icon {
+    text-align: right;
+    padding-right: 30px;
+}
+.transparent-header {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.mobile-menu.mean-container .mean-nav {
+    background: #1a196e;
+    background: -webkit-linear-gradient(to right, #1a196e, #4e8dd6);
+    background: linear-gradient(to right, #1a196e, #4e8dd6);
+}
+.cover-tabs-wrap .nav-tabs .nav-item {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.cover-tabs-wrap .nav-tabs .nav-link {
+    font-size: 16px;
+    padding: 18px 30px;
+}
+.cover-tabs-wrap .nav-tabs .nav-link img {
+    margin-right: 10px;
+}
+
+}
+
+ @media (min-width: 992px) and (max-width: 1200px) {
+
+.menu-icon a.user {
+    display: none;
+}
+.menu-icon {
+    text-align: right;
+}
+
+}

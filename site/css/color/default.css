@@ -1,0 +1,259 @@
+/*
+
+Template: Closter WHMCS Web Hosting Template
+Author: RedCheap Theme
+Version: 1.0
+Design and Developed by: RedCheap Theme
+
+*/
+
+/*---------------------------------------------------------------------
+                            Text Color 
+-----------------------------------------------------------------------*/
+.font-blue {
+	color: #014073 !important;
+}
+.font-light-blue {
+	color: #09b3ef;
+}
+.font-white {
+	color: #ffffff !important;
+}
+.font-black {
+	color: #2c3e50;
+}
+.font-grey {
+	color: #333333;
+}
+.font-light {
+	color: #666666;
+}
+.main-heading {
+	color: #014073;
+}
+/*---------------------------------------------------------------------
+                          Background Color 
+-----------------------------------------------------------------------*/
+.white-bg {
+	background: #ffffff;
+}
+.dark-bg {
+	background: #333333;
+}
+.grey-bg {
+	background: #f6f6f6;
+}
+.blue-bg {
+	background: #014073;
+}
+/*---------------------------------------------------------------------
+                               Back to Top
+-----------------------------------------------------------------------*/
+#back-to-top .top {
+	color: #fff;
+	background: #ff9c34;
+}
+#back-to-top .top:hover {
+	background: #ff9c34;
+	color: #fff;
+}
+/*----------------------------------------------------------------------
+                        Buttons
+-----------------------------------------------------------------------*/
+.button {
+	color: #fff;
+	background: #ff9c34;
+}
+.button:hover, .button:focus {
+	color: #ffffff;
+	background: #ff9c34;
+}
+/* button White */
+.button.button-white {
+	background: #fff;
+	color: #666666;
+}
+.button.button-white:hover, 
+.button.button-white:focus {
+	background: #333333;
+	color: #fff;
+}
+ul.right-top-bar li select {
+	color: #014073;
+	border: 1px solid #014073;
+}
+ul.right-top-bar li {
+	color:#FFF;
+}
+ul.right-top-bar li a {
+	color:#FFF;
+}
+ul.left-top-bar li a {
+	color:#FFF;
+}
+ul.left-top-bar li {
+	color:#FFF;
+}
+.main-menu ul li:hover > a {
+	color: #014073;
+}
+.main-menu ul li.active > a {
+	color: #014073;
+}
+.main-menu ul li .submenu li a {
+	color: #014073;
+}
+.main-menu ul li .submenu li a:before {
+ background: #014073;
+}
+.mean-container .mean-nav ul li a.mean-expand {
+	background: #014073;
+}
+.mobile-menu.mean-container .mean-nav {
+	background: #014073;
+}
+.fancy-box:before, 
+.fancy-box:after, 
+.fancy-box-03:before {
+	background: #ff9c34;
+}
+.transparent-header .mean-container a.meanmenu-reveal {
+	border: 1px solid #ff9c34;
+	color: #ff9c34;
+}
+.transparent-header .mean-container a.meanmenu-reveal span {
+	background: #ff9c34;
+}
+.sub-heading {
+	color: #333;
+}
+.fancy-box h4, 
+.hosting-services-1 h3, 
+.hosting-services-3 h3 {
+	color:#014073;
+}
+.fancy-box p, 
+.hosting-services-1 p {
+	color: #373737;
+}
+.home-banner {
+	background:#014073;
+	background-image:url(../../images/home-banner.svg);
+	background-repeat:no-repeat;
+	background-position:right center;
+}
+.hosting-services-1 hr, 
+.hosting-services-3 hr {
+	background: #ff9c34;
+}
+.hosting-services-2 h3, 
+.hosting-services-2 p {
+	color:#FFF;
+}
+.hosting-services-2 hr {
+	background: #ff9c34;
+}
+.home-plan .price_box .box_top {
+	background: #014073;
+}
+.home-plan .price_box .box_top .price_title {
+	color: #FFF;
+}
+.home-plan .price_box .box_top p {
+	color: #f0f0f0;
+}
+.home-plan .price_box .box_top .hr, 
+footer .footer-menu .footer-head:before {
+	background: #ff9c34;
+}
+.home-plan .price_box .box_top .price {
+	color: #FFF;
+}
+.home-plan .price_box ul li {
+	color: #373737;
+}
+.home-plan .price_box .bottom button.green-button {
+	background: #ff9c34;
+	color: #FFF;
+}
+.hosting-page-banner {
+	background:#014073;
+}
+.hosting-page-banner.shared-hosting {
+	background-image:url(../../images/shared-hosting-banner.jpg);
+	background-repeat:no-repeat;
+}
+.hosting-page-banner.reseller-hosting {
+	background-image:url(../../images/reseller-hosting-banner.jpg);
+	background-repeat:no-repeat;
+}
+.hosting-page-banner.dedicated-server {
+	background-image:url(../../images/dedicated-server-banner.jpg);
+	background-repeat:no-repeat;
+}
+.hosting-page-banner.vps-server {
+	background-image:url(../../images/vps-server-banner.jpg);
+	background-repeat:no-repeat;
+}
+.hosting-page-banner.wordpress-banner {
+	background-image:url(../../images/wordpress-banner.jpg);
+	background-repeat:no-repeat;
+}
+.hosting-page-banner.cloud-hosting {
+	background-image:url(../../images/cloud-hosting-banner.jpg);
+	background-repeat:no-repeat;
+}
+.hosting-page-banner.ssl-certificate {
+	background-image:url(../../images/ssl-certificate-banner.jpg);
+	background-repeat:no-repeat;
+}
+.hosting-page-banner:before {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	content: "";
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, .6);
+}
+.hosting-page-banner h1 {
+	color: #FFF;
+}
+.hosting-page-banner span.top {
+	background: #8C8B8B;
+	color: #fff;
+	border: 1px solid #ACACAC;
+}
+.hosting-page-banner p, 
+.home-banner p {
+	color: #FFF;
+}
+.hosting-page-banner ul li {
+	color: #FFF;
+}
+.hosting-page-banner a, 
+.home-banner a, 
+ul.services-list a {
+	background: #ff9c34;
+	color: #FFF;
+}
+.home-domain-search #homepageDomainSearch .domain_submit {
+	background: #ff9c34;
+	color: #FFF;
+}
+.accordion-panel .accordion dt.is-open {
+	background:#ff9c34;
+	color:#FFF;
+}
+.accordion-panel .accordion .content {
+	border:1px solid #ff9c34;
+}
+
+
+@media(max-width:992px) {
+	
+.hosting-services.responsive-bg, .home-domain-search{background: #014073;}
+
+}
